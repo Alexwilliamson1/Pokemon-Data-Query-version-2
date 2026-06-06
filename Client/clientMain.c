@@ -33,7 +33,7 @@ int main() {
 			break;
 		}
   	}
-	//Freeing memory, destroying the mutex, and closing the socket connection with the server:
+	//Freeing memory and closing the socket connection with the server:
     free(args -> type1s);	
 	free(data);
 	free(args);

@@ -1,13 +1,8 @@
 #include <stdio.h> 
 #include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
 #include <stdbool.h>
-#include <pthread.h>
-#include "clientHeader.h"
 #include <unistd.h>
-#include <sys/socket.h>
-#include <arpa/inet.h>
+#include "clientHeader.h"
 #include "../Shared/sharedHeader.h"
 
 int main() {

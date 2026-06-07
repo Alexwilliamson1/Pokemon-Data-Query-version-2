@@ -35,7 +35,7 @@ case "$(uname -s)" in
 		done
 		;;
 	*)
-		echo "This script only works with certain operating systems and platforms, particularly those that support POSIX, such as macOS, Linux, or Windows running Git Bash, MSYS2 or Cygwin."
+		echo "This script only runs on operating systems and platforms with POSIX support, such as macOS, Linux, or Windows running Git Bash, MSYS2 or Cygwin."
 	     	exit 1
 		;;	
 esac

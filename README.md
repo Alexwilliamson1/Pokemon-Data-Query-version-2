@@ -1,4 +1,4 @@
-# Pokemon-Data-Query-version-2
+# Pokemon-Data-Query-Version-2
 
 ## Description:
 

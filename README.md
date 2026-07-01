@@ -14,11 +14,11 @@ To run this program, one requires a Linux, macOS, or other POSIX-compatible oper
 
 ## Instructions for building and running the program:
 
-The program is organized into three directories (folders): Server, Client, and Shared.  Outside of these directories are: a makefile, the script `run.sh`, and the file `pokemon.csv`.  To run the program on one device, one can put all the directories and files in the same parent directory and use the `run.sh` shell script provided.  
+The program is organized into three directories (folders): `Server`, `Client`, and `Shared`.  Outside of these directories are: a makefile, the script `run.sh`, and the file `pokemon.csv`.  To run the program on one device, one can put all the directories and files in the same parent directory and use the `run.sh` shell script provided.  
 
 To run `run.sh`, open a command-line interface and navigate to the script’s directory.  Use the command `chmod +x run.sh` to obtain permission to run the file, then `./run.sh` to run it.  More than one client can be opened from the command line by typing a number after `./run.sh`.  For example, running `./run.sh 3` will open one window for the server and three windows for the clients.  Each new window will display an introductory message for using the program.
 
-To run the program on more than one device, save the `Server` and `Shared` directories, makefile and `pokemon.csv` in the same directory on the server’s device and the Client and Shared directories and makefile in the same directory on each client’s device.
+To run the program on more than one device, save the `Server` and `Shared` directories, `makefile` and `pokemon.csv` in the same directory on the server’s device and the `Client` and `Shared` directories and `makefile` in the same directory on each client’s device.
 
 Using more than one device also requires manual compilation and execution.  To build and run the server, use the commands `make build_server` and `./server_app` and to build and run a client, use the commands `make build_client` and `./client_app`.  Note that the server must run before the clients.
 
